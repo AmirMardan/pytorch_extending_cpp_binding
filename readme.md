@@ -1,7 +1,7 @@
 Extending Torch and binding C++ function
 ========================================
 
-We can extend the autograd operation in both Python and C++ which is discussed in folders `example_extend_in_python` and `example_load_cpp`.
+We can extend the autograd operation in both Python and C++ which is discussed in folders `example_extend_in_python` and `example_load_multifile_cpp`.
 
 To bind C++ to Python, we can use just-in-time (JIT) method. 
 For this purpose, we write our functions in C++ and at the end of the C++ file, we define the functions that need to be wrapped using pybind11 as 
