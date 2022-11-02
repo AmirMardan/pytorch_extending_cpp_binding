@@ -6,11 +6,11 @@ $ c++ -O3 -Wall -shared -std=c++11 -undefined dynamic_lookup $(python3 -m pybind
 ```
 
 For installing the package, go to the directory with the file `setup.py` and run `pip install .`.
-Then we can use file `wrap_test.py`. 
+Then we can use file `wrap_test.py` to test the installed module. 
 This file has three examples as
-1. simple summation function `op.add(3, 2)`,
+1. simple summation function `op.add()`,
 2. using a function to get ndarray with value as argument, `op.assign_special()`,
-3. using a function to get ndarray with value as argument, `op.assign_special_ref().
+3. using a function to get ndarray with value as argument, `op.assign_special_ref()`.
 
 References
 ===========
